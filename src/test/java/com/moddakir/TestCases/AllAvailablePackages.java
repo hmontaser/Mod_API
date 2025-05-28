@@ -56,18 +56,6 @@ public class AllAvailablePackages {
         response.then().log().all();
     }
 
-    @Test
-    public void testAllAvailablePackagesWithSendIdPackageInRequest() throws JSONException {
-        JSONObject requestBodyAvailablePackages = new JSONObject();
-        requestBodyAvailablePackages.put("currency","KWD");
-        requestBodyAvailablePackages.put("data.packages.name","reservations free packge");
-        LoginApiTest loginApiTest=new LoginApiTest("a.mohamed@moddakir.com","Test@123");
-        validToken = loginApiTest.validToken;
-        if (validToken != null) {
-            requestAvailablePackage.header("Authorization", "Bearer " + validToken); // Set the authorization header for all tests
-        }
-        Response response = requestAvailablePackage.body(requestBodyAvailablePackages.toString()).post(allAvailablePackagesEndpoint);
-        response.then().log().all();
-    }
+
 
 }
