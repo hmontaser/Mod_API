@@ -3,8 +3,9 @@
 
   <test name="API Tests">
     <classes>
-      <class name="com.yourpackage.RegisterApiTest" />
-      <class name="com.yourpackage.LoginApiTest" />
+      <class name="com.moddakir.RegisterApiTest" />
+      <class name="com.moddakir.LoginApiTest" />
+       <class name="com.moddakir.AllAvailablePackages" />
     </classes>
   </test>
 
