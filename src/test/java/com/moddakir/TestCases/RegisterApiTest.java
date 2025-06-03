@@ -49,7 +49,7 @@ public class RegisterApiTest {
         // Assertions
         Assert.assertEquals(response.getStatusCode(), 200);
         Assert.assertEquals(response.jsonPath().getString("result"), "Succeeded");
-        Assert.assertEquals(response.jsonPath().getString("data.student.email"), "a20@modd.com");
+        Assert.assertEquals(response.jsonPath().getString("data.student.email"), "a21@modd.com");
         Assert.assertEquals(response.jsonPath().getString("data.student.fullName"), "Test User");
         Assert.assertEquals(response.jsonPath().getString("data.student.gender"), "male");
 
