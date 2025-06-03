@@ -30,7 +30,7 @@ public class RegisterApiTest {
     @Test
     public void testSuccessfulRegistration() throws JSONException {
         //create a user
-        JSONObject requestBody = getJsonObject("a20@modd.com","Test@123");
+        JSONObject requestBody = getJsonObject("a21@modd.com","Test@123");
 
         /*given()
                 .baseUri("http://3.80.91.142:8080")
