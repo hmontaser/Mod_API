@@ -15,8 +15,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 
 public class RegisterApiTest {
-
-    private String baseUrl = "http://3.80.91.142:8080";
+    private String baseUrl = "https://revamp-auth.moddakir.com";
     private String registerEndpoint = "/api/auth/public/student/register";
     private RequestSpecification request;
 
@@ -109,3 +108,4 @@ public class RegisterApiTest {
 
 
 }
+
