@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class LoginApiTest {
 
-    private String baseUrl = "http://3.80.91.142:8080";
+    private String baseUrl = "https://revamp-auth.moddakir.com";
     private String loginEndpoint = "/api/auth/public/login";
     private RequestSpecification request;
     public String validToken; // Store a valid JWT token here
@@ -108,4 +108,5 @@ public class LoginApiTest {
         return requestBody;
     }
 }
+
 
