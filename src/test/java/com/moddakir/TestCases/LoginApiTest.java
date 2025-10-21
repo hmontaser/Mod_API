@@ -16,8 +16,8 @@ public class LoginApiTest {
     private String loginEndpoint = "/api/auth/public/login";
     private RequestSpecification request;
     public String validToken; // Store a valid JWT token here
-    public String email= "a.mohamed@moddakir.com";
-    public String password= "Test@123";
+    public String email= "hmontaser00@moddakir.com";
+    public String password= "Abc@@12345";
 
     public LoginApiTest() {}
 
@@ -108,5 +108,6 @@ public class LoginApiTest {
         return requestBody;
     }
 }
+
 
 
